@@ -10,7 +10,7 @@ gemini_api_key = os.getenv('GEMINI_API_KEY')
 
 genai.configure(api_key = gemini_api_key)
 
-st.set_page_config('💖  Greeting Assistant 💖')
+st.set_page_config(page_title="💖 Eid Greeting Assistant", page_icon="🌙")
 
 st.title('🫂🌙Eid Ul Adha Greeting Assistant🐄🐪')
 
